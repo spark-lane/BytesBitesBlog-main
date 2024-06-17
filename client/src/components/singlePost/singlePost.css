@@ -1,0 +1,101 @@
+.singlePost{
+    flex : 9;
+    background-color: black;
+}
+.singlePostWrapper{
+    padding : 20px;
+    padding-right : 0;
+    display: flex;
+    flex-direction: column;
+}
+.singlePostImg{
+    width:400px;
+    height:300px;
+    border-radius : 5px;
+    object-fit: cover;
+    margin-left: 300px;
+    box-shadow: 0 11px 38px rgba(255, 253, 253, 0.1);
+}
+.singlePostTitle{
+    text-align: center;
+    margin:10px;
+    font-family: 'Roboto', sans-serif;
+    font-size : 28px;
+    color: white;
+}
+.singlePostEdit{
+    float :right;
+    font-size : 16px;
+}
+.singlePostIcon{
+    margin-left : 18px;
+    cursor:pointer;
+}
+.singlePostIcon:first-child{
+    color : teal;
+}
+.singlePostIcon:last-child{
+    color : tomato;
+}
+.singlePostInfo{
+    margin-bottom : 20px;
+    display : flex;
+    justify-content: space-between;
+    font-size :16px;
+    font-family: 'Varela Round', sans-serif;
+    color : #b39656;
+    margin-right: 20px;
+}
+.singlePostDesc{
+    color : #666;
+    font-size : 18px;
+    line-height : 25px;
+}
+.singlePostDesc::first-letter{
+    margin-left : 20px;
+    font-size : 30px;
+    font-weight: 600;
+}
+.singlePostTitleInput {
+    margin : 10px;
+    font-family:"Lora",serif;
+    font-size : 28px;
+    text-align: center;
+    border : none;
+    color : gray;
+    border-bottom : 1px solid lightgray;
+}
+.singlePostTitleInput:focus {
+    outline : none;
+}
+.singlePostDescInput {
+    border : none;
+    color : #666;
+    font-size : 18px;
+    line-height: 25px;
+}
+
+.singlePostDescInput:focus{
+    outline : none;
+}
+
+.singlePostButton {
+    margin-top : 20px;
+    cursor : pointer;
+    background-color: teal;
+    border : none;
+    color : white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    font-family:'Roboto', sans-serif;
+    /* border: solid red 2px; */
+    width: 150px;
+    align-items: right;
+    transition: background 0.5s,transform 0.5s;
+}
+.singlePostButton:hover{
+    background-color: rgb(6, 92, 92);
+    transform: translateY(-1px);
+    
+}

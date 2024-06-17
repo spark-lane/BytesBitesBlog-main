@@ -1,0 +1,78 @@
+.register{
+    height : calc(100vh - 50px);
+    display: flex;
+    flex-direction : column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    background-size: cover;
+}
+.registerTitle{
+    font-size : 50px;
+    font-family:'Roboto', sans-serif;
+    color: rgb(146, 127, 127);
+
+}
+.registerForm{
+    margin-top : 10px;
+    display : flex;
+    flex-direction: column;
+    font-family:'Roboto', sans-serif;
+    /* border: solid red 2px; */
+    color: rgb(146, 127, 127);
+}
+.registerForm > label{
+    margin : 10px 0;
+}
+.registerInput{
+    padding : 10px;
+    background-color: rgb(209, 201, 201);
+    border:none;
+    font-family:'Roboto', sans-serif;
+    width: 250px;
+    text-decoration: none;
+    border-radius: 4px;
+    outline: none;
+}
+.registerButton{
+    margin-top : 20px;
+    cursor : pointer;
+    background-color: teal;
+    border : none;
+    color : white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    font-family:'Roboto', sans-serif;
+    transition: background 0.5s,transform 0.5s;
+}
+
+.registerButton:hover{
+    background-color: rgb(6, 92, 92);
+    transform: translateY(-1px);
+    
+
+}
+
+.registerLoginButton{
+    position : absolute;
+    top : 60px;
+    right : 20px;
+    background-color: lightcoral;
+    cursor:pointer;
+    border : none;
+    color : white;
+    border-radius: 10px;
+    padding : 10px;
+    margin-top: 20px;
+    margin-right: 30px;
+    width: 90px;
+    font-family:'Roboto', sans-serif;
+    font-size: 17px;
+    transition: background 0.5s,transform 0.5s;
+}
+.registerLoginButton:hover{
+    background-color: rgb(244, 99, 99);
+    transform: translateY(-1px);
+    
+}

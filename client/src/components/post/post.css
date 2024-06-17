@@ -1,0 +1,78 @@
+.post{
+    flex: calc(33.33% - 20px); /* Adjust flex property to occupy 33.33% of the container width minus margin */
+    margin-bottom: 20px; /* Add margin between posts */
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #262626;
+    color: whitesmoke;
+    transition: background-color 0.5s, transform 0.5s;
+    text-decoration: none;
+    max-width: calc(33.33% - 20px); 
+    width: 250px;
+    height: 415px;
+    border:solid rgb(158, 95, 217) 1px;
+}
+.post:hover{
+    cursor:pointer;
+    background-color: #5c182f;
+    transform: translateY(-5px);
+}
+.postImg{
+    width:98%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 7px;
+    margin-left: 4px;
+    margin-top: 4px;
+}
+.postInfo{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    /* border: solid white 2px; */
+}
+.postCat{
+    font-family : 'Varela Round', sans-serif;
+    font-size : 11px;
+    color : #be9656;
+    line-height : 20px;
+    margin-top : 15px;
+    margin-right : 10px;
+    cursor : pointer;
+}
+.postTitle {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 15px;
+    cursor: pointer;
+    overflow: hidden; /* Hide any overflow */
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2; /* Limit title to two lines */
+    line-height: 1.4; /* Adjust line height as needed */
+    margin-left: 4px;
+}
+
+.postDate{
+    font-family: 'Lora', serif;
+    font-style: italic;
+    font-size : 13px;
+    color : #efe9e9;
+    margin-top : 10px;
+}
+.postDesc{
+    font-family : 'Varela Round', sans-serif;
+    font-size : 14px;
+    line-height: 22px;
+    margin-top : 10px;
+    overflow : hidden;
+    text-overflow : ellipsis;
+    display : -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient : vertical;
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-bottom: 14px;
+    /* border: solid white 2px; */
+}
